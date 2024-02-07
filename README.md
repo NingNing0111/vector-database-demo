@@ -1,8 +1,8 @@
-&emsp;这是Spring AI的使用demo，使用Postgresql作为向量数据库。
+&emsp;这是Spring AI的使用demo，使用PGVector作为向量数据库。
 
 ## 介绍
 
-- 将PDF内容向量化并保存在向量数据库中，本Demo使用的是Postgresql；
+- 将PDF内容向量化并保存在向量数据库中，本Demo使用的是PGVector；
 - 调用对话前根据问题从向量数据库中检索最相似的几条记录；
 - 封装数据，一并返回给大语言模型
 - 大语言模型根据上下文数据进行回复

@@ -26,11 +26,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.postgresql</groupId>
-			<artifactId>postgresql</artifactId>
-			<scope>runtime</scope>
-		</dependency>
+
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
@@ -47,7 +43,7 @@
 			<artifactId>spring-ai-openai-spring-boot-starter</artifactId>
 			<version>${spring-ai.version}</version>
 		</dependency>
-		<!-- 使用PG作为向量数据库 -->
+		<!-- 使用PGVector作为向量数据库 -->
 		<dependency>
 			<groupId>org.springframework.ai</groupId>
 			<artifactId>spring-ai-pgvector-store-spring-boot-starter</artifactId>
