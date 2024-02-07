@@ -1,0 +1,13 @@
+server:
+  port: 8801
+
+spring:
+  ai:
+    openai:
+      base-url: https://api.example.com
+      api-key: sk-aec103e6cfxxxxxxxxxxxxxxxxxxxxxxx71da57a
+
+  datasource:
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost/vector_store
